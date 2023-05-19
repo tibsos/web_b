@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* line 5, c:/users/следователь/desktop/блокнотик/web/static/scss/user/register.scss */
+.main .circle {
+  width: 1000px;
+  height: 1000px;
+  border-radius: 999px;
+  background: #000; }

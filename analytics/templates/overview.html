@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Аналитика</title>
+    
+    </head>
+
+    <body>
+    
+        <div class="main">
+
+            <div class="stats" id="users">
+
+                <span class="stat">Всего пользователей: {{ total_users }}</span>
+                <span class="stat">Премиум пользователей: {{ premium_users }}</span>
+                <span class="stat">Процент премиум пользователей: {{ premium_percentage }}%</span>
+
+            </div>
+
+            <div class="stat">
+
+                <span class="stat">Ежемесечная выручка: {{ revenue }} ₽</span>
+
+            </div>
+
+        </div>
+
+    </body>
+
+    <style>
+
+        .stats {
+
+            float: left;
+
+            margin-right: 100px;
+
+        }
+
+        .stat {
+
+            display: block;
+            margin-bottom: 20px;
+
+        }
+
+    </style>
+
+
+</html>

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* line 3, c:/users/следователь/desktop/блокнотик/web/static/scss/user/register.scss */
+body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0; }
+
+/* line 13, c:/users/следователь/desktop/блокнотик/web/static/scss/user/register.scss */
+.main {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; }
+  /* line 25, c:/users/следователь/desktop/блокнотик/web/static/scss/user/register.scss */
+  .main .circle {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 999px;
+    background: #000; }

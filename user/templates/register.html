@@ -1,0 +1,51 @@
+{% load static %}
+{% load compress %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Блокнотик | Регистрация</title>
+
+        {% compress css %}
+
+            <link rel="stylesheet" href="{% static 'scss/user/register.scss' %}" type="text/x-scss">
+        
+        {% endcompress %}
+    
+    </head>
+
+
+    <body>
+
+        <div class="main">
+
+            <div class="circle"></div>
+
+            <div class="registration-form">
+
+                <div class="brand"></div>
+
+                <div class="fields">
+
+                    <div class="field">
+
+                        <input
+                            type="text"
+                            class="field-input" />
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+    </body>
+
+</html>
